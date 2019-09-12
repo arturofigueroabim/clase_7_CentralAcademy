@@ -1,12 +1,15 @@
 const asistencias = [1,0,1,1,1,1,0,0,0,0];
 
 var numeroDeAsistencias = 0;
+i = i + 1;
+
+console.log(asistencias.length)
 
 for(var i =0; i < asistencias.length; i++){
-    if(asistencias[i] == true){
-        numeroDeAsistencias++;
+    if(asistencias[i]){
+        numeroeAsistencias++;
     }
-}
+} 
 
 const porcentajeAsistencias = (numeroDeAsistencias * 100) /asistencias.length
 
